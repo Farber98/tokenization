@@ -1132,6 +1132,54 @@
         }
       }
     },
+    "src/CappucinoCrowdsale.sol": {
+      "lastModificationDate": 1668534285520,
+      "contentHash": "6bb2a5c6d01787cafc4d3b753ef3cd53",
+      "sourceName": "src/CappucinoCrowdsale.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-v2.5.0/contracts/GSN/Context.sol",
+        "lib/openzeppelin-contracts-v2.5.0/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts-v2.5.0/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts-v2.5.0/contracts/token/ERC20/SafeERC20.sol",
+        "lib/openzeppelin-contracts-v2.5.0/contracts/utils/Address.sol",
+        "lib/openzeppelin-contracts-v2.5.0/contracts/utils/ReentrancyGuard.sol",
+        "src/Crowdsale.sol"
+      ],
+      "versionRequirement": "^0.6.0",
+      "artifacts": {
+        "CappucinoCrowdsale": {
+          "0.6.12+commit.27d51765.Linux.gcc": "CappucinoCrowdsale.sol/CappucinoCrowdsale.json"
+        }
+      }
+    },
     "src/Crowdsale.sol": {
       "lastModificationDate": 1668533450344,
       "contentHash": "7edef3384e596a00a36a7bdc6cf38bc6",
