@@ -842,6 +842,250 @@
         }
       }
     },
+    "lib/openzeppelin-contracts-v2.5.0/contracts/GSN/Context.sol": {
+      "lastModificationDate": 1668533500758,
+      "contentHash": "56b9af641b2dde9145d4866cd231ce56",
+      "sourceName": "lib/openzeppelin-contracts-v2.5.0/contracts/GSN/Context.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.6.0",
+      "artifacts": {
+        "Context": {
+          "0.6.12+commit.27d51765.Linux.gcc": "Context.sol/Context.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts-v2.5.0/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1668533539824,
+      "contentHash": "35582469bfcc3dc20db64d12a5bf3304",
+      "sourceName": "lib/openzeppelin-contracts-v2.5.0/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.6.0",
+      "artifacts": {
+        "SafeMath": {
+          "0.6.12+commit.27d51765.Linux.gcc": "SafeMath.sol/SafeMath.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts-v2.5.0/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1668533552128,
+      "contentHash": "0b2b60c937c3b6bae0eacced600a8303",
+      "sourceName": "lib/openzeppelin-contracts-v2.5.0/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.6.0",
+      "artifacts": {
+        "IERC20": {
+          "0.6.12+commit.27d51765.Linux.gcc": "IERC20.sol/IERC20.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts-v2.5.0/contracts/token/ERC20/SafeERC20.sol": {
+      "lastModificationDate": 1668533544856,
+      "contentHash": "35119d5b0f8df0ccc3753bc7b5701aa7",
+      "sourceName": "lib/openzeppelin-contracts-v2.5.0/contracts/token/ERC20/SafeERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-v2.5.0/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts-v2.5.0/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts-v2.5.0/contracts/utils/Address.sol"
+      ],
+      "versionRequirement": "^0.6.0",
+      "artifacts": {
+        "SafeERC20": {
+          "0.6.12+commit.27d51765.Linux.gcc": "SafeERC20.sol/SafeERC20.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts-v2.5.0/contracts/utils/Address.sol": {
+      "lastModificationDate": 1668533598656,
+      "contentHash": "25a3986967e4e853ab754308508b834e",
+      "sourceName": "lib/openzeppelin-contracts-v2.5.0/contracts/utils/Address.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.6.0",
+      "artifacts": {
+        "Address": {
+          "0.6.12+commit.27d51765.Linux.gcc": "Address.sol/Address.json"
+        }
+      }
+    },
+    "lib/openzeppelin-contracts-v2.5.0/contracts/utils/ReentrancyGuard.sol": {
+      "lastModificationDate": 1668533549188,
+      "contentHash": "2cd1a8ecde34264da5d01549a8cee236",
+      "sourceName": "lib/openzeppelin-contracts-v2.5.0/contracts/utils/ReentrancyGuard.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.6.0",
+      "artifacts": {
+        "ReentrancyGuard": {
+          "0.6.12+commit.27d51765.Linux.gcc": "ReentrancyGuard.sol/ReentrancyGuard.json"
+        }
+      }
+    },
     "src/Cappucino.sol": {
       "lastModificationDate": 1668517749887,
       "contentHash": "77c773fc900af14e69a9001ff6e92642",
@@ -885,6 +1129,53 @@
       "artifacts": {
         "Cappucino": {
           "0.8.17+commit.8df45f5f.Linux.gcc": "Cappucino.sol/Cappucino.json"
+        }
+      }
+    },
+    "src/Crowdsale.sol": {
+      "lastModificationDate": 1668533450344,
+      "contentHash": "7edef3384e596a00a36a7bdc6cf38bc6",
+      "sourceName": "src/Crowdsale.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts-v2.5.0/contracts/GSN/Context.sol",
+        "lib/openzeppelin-contracts-v2.5.0/contracts/math/SafeMath.sol",
+        "lib/openzeppelin-contracts-v2.5.0/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts-v2.5.0/contracts/token/ERC20/SafeERC20.sol",
+        "lib/openzeppelin-contracts-v2.5.0/contracts/utils/Address.sol",
+        "lib/openzeppelin-contracts-v2.5.0/contracts/utils/ReentrancyGuard.sol"
+      ],
+      "versionRequirement": "^0.6.0",
+      "artifacts": {
+        "Crowdsale": {
+          "0.6.12+commit.27d51765.Linux.gcc": "Crowdsale.sol/Crowdsale.json"
         }
       }
     },
