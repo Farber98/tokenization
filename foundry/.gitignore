@@ -1,3 +1,7 @@
 .secret
 .env
 broadcast
+cache
+out
+lib
+cache
